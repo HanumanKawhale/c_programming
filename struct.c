@@ -1,23 +1,31 @@
 #include<stdio.h>
 
-// Structure Declaration
 struct Demo
 {
-    int iNo;
-    float fValue;
-    int iValue;
+    int i;
+    int j;
 };
+
+struct Hello
+{
+    float f;
+    int no;
+    struct Demo dobj;
+};
+
 int main()
 {
-    // Structure object creation
-    struct Demo obj;
+    struct Hello hobj;
 
-    // Object initialization
-    obj.iNo = 11;
-    obj.fValue = 10.11;
-    obj.iValue = 21;
+    hobj.f=0.0;
+    hobj.no=0;
+    hobj.dobj.i=21;
+    hobj.dobj.j=51;
+    printf("your value:");
+    scanf("%f",hobj.f);
 
-    printf("%d\n",obj.iValue);    // 21
-    printf("%d\n",sizeof(obj));       // 12
+    printf("your no:");
+    scanf("%d",hobj.no);
+
     return 0;
 }
