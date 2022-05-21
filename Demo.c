@@ -9,43 +9,4 @@ int main()
 
 // return 0         Succesfull termination
 // return 1         Abnormal termination
-// return -1        Erronious termination
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-int no = 11;
-
-
-
-
-
-int *p = &no;
-
-
-
-
-
-
-
-
+// return -1        Erronious terminat
