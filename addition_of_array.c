@@ -1,3 +1,4 @@
+//this code display your number addition
 #include<stdio.h>
 
 
