@@ -1,4 +1,4 @@
-
+//program to display find even number using array
 #include<stdio.h>
 
 
